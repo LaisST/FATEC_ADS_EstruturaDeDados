@@ -12,11 +12,15 @@ public class Calculo {
 		
 	 }; 
 	 
+	 int soma(int par, int impar) {
+		 return par + impar;
+	 }
+	 
 	 /*
 	  public int maior(int n1, int n2){
-	  	System.out.println((n1>n2)?"O primeiro é maior" : "O segundo é maior");
+	  	System.out.println((n1>n2)?"O primeiro Ã© maior" : "O segundo Ã© maior");
 	  	return resultado;
-	  }
-	  */
+	  } */
+	  
 
 }
