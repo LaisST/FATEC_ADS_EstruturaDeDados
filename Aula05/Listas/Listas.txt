@@ -1,0 +1,16 @@
+package Listas;
+
+	
+	/*Uma lista de comporta como uma fila;
+	 * Em uma inclusão o item entra no final, enquanto a remoção ocorre no início;
+	 * 
+	 * TIPOS DE LISTAS
+	 * - Primitivos
+	 * -Abstratos
+	 * 
+	 * A lista pode ser:
+	 * Estática: Quantidade constante de elementos, usa Arrays
+	 * Dinâmica: Não há quantidade máxima de elementos, utiliza somento o espaço de memória suficiente, ponteiro ou referência
+	 * 
+	 * */
+
