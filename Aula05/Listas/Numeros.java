@@ -31,6 +31,15 @@ public class Numeros {
 			return -1;
 		
 	}	
+	
+	public boolean remover() {
+		if (this.tamanho <= this.qtdItens && this.tamanho > 0) {
+			itens[tamanho - 1] = 0;
+			tamanho --;
+			return true;
+		}
+		return false;
+	}
 		
 		public int getNrItens() {
 			return qtdItens;
