@@ -21,5 +21,10 @@ public class Main {
 		}
 		System.out.println("procurando 3 na lista -> Resultado indice = "+ lista.pesquisar(3));
 		lista.imprimir();
+		
+		System.out.println(lista.getTamanho());
+		System.out.println(lista.getNrItens());
+		System.out.println(lista.remover());
+		lista.imprimir();
 	}
 }
