@@ -1,7 +1,7 @@
 package Listas;
 
 public class Numeros {
-	int qtdItens; //N�mero de itens da lista
+	int qtdItens; //Número de itens da lista
 	int tamanho; //Tamanho da lista / quantos itens ocupam a lista
 	
 	int [] itens; 
@@ -18,14 +18,27 @@ public class Numeros {
 		itens[tamanho] = n;
 		tamanho++;
 	}
+
 	
-	public int getNrItens() {
-		return qtdItens;
-	}
-	
-	public int getTamanho() {
-		return tamanho;
-	}
+	//Método Pesquisar
+	public int pesquisar(int n) {
+		int i;
+		for (i = 0; i < getTamanho() && itens[i] != n; i++ ) {
+		}
+		if(itens[i] == n)
+			return i;
+		else 
+			return -1;
+		
+	}	
+		
+		public int getNrItens() {
+			return qtdItens;
+		}
+		
+		public int getTamanho() {
+			return tamanho;
+		}
 	
 	public void imprimir() {
 		System.out.print("[");
