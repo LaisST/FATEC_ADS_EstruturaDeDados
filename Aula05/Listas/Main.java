@@ -14,11 +14,12 @@ public class Main {
 		int cont = 0;
 		while(cont < 4) {
 			Scanner ler = new Scanner(System.in);
-			System.out.println("Digite um número para a lista: ");
+			System.out.println("Digite um nÃºmero para a lista: ");
 			n = ler.nextInt();
 			lista.adicionar(n);
 			cont ++;
 		}
+		System.out.println("procurando 3 na lista -> Resultado indice = "+ lista.pesquisar(3));
 		lista.imprimir();
 	}
 }
