@@ -2,7 +2,6 @@ package exercicioPilha;
 
 import java.util.Scanner;
 
-import pilha.Pilha;
 
 public class Main {
 
@@ -15,22 +14,16 @@ public class Main {
 		
 		
 		for (int i = 0; i < qtdLivros;i++) {
-			System.out.println("Digite o nome do "+(i+1)+"º Livro (sem espaço): ");
+			System.out.println("Digite o nome do "+(i+1)+"Âº Livro (sem espaÃ§o): ");
 			String livro = ler.next();
 			pilha.empilhar(livro);
 		}
-
 		
-		System.out.println(pilha);
-		
-		pilha.desempilhar();
-		
+		for(int i = 0; i < qtdLivros; i++) {
 		System.out.println(pilha);
 		pilha.desempilhar();
-		
-		System.out.println(pilha);
+		}
 		pilha.desempilhar();
-		
 	}
 
 }
